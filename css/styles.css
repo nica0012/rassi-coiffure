@@ -66,6 +66,15 @@ body {
   background-size: cover;
   background-attachment: fixed; }
 
+body {
+    opacity: 1;
+    transition: 1s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
 .wrapper {
   -webkit-box-shadow: 0px 0px 49px 0px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 0px 49px 0px rgba(0, 0, 0, 0.5);

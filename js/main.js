@@ -1,4 +1,6 @@
-
+$(function() {
+    $('body').removeClass('fade-out');
+});
 
 $('.handle').on('click', function () {
     $('nav ul').toggleClass('showing');
