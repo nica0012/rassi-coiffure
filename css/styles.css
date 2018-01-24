@@ -454,7 +454,8 @@ footer {
     padding: 2em 3em 3em 3em;
     background-color: rgba(47, 47, 47, 0.65); }
     .mapContain span {
-      float: right; }
+      float: right;
+      font-size: 14px; }
     .mapContain i {
       font-size: 1.3em;
       margin-right: 5px; }
@@ -462,8 +463,6 @@ footer {
       margin-left: 10px; }
       .mapContain .business-hours h2 {
         padding: 10px; }
-      .mapContain .business-hours span {
-        font-size: 14px; }
 
   footer {
     clear: both; }
