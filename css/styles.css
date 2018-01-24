@@ -4,7 +4,7 @@
   color: #1f1f1f; }
 
 body {
-  background-color: #ffffff;
+  background-color: #fff;
   background-image: url(../image/bg.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -26,7 +26,7 @@ header {
   padding: 1.5em;
   text-align: center;
   margin: 0 auto;
-  background-color: rgba(47, 47, 47, 0.75);
+  background-color: rgba(47, 47, 47, 0.65);
   z-index: 999; }
   header ul {
     display: none; }
@@ -46,7 +46,7 @@ header {
     width: 165px; }
 
 .headSlider {
-  background-color: rgba(47, 47, 47, 0.75);
+  background-color: rgba(47, 47, 47, 0.65);
   background-size: cover;
   position: relative;
   display: block;
@@ -60,8 +60,13 @@ header {
     margin-top: 52px; }
   .headSlider h1 {
     color: #fff; }
+    .headSlider h1 span {
+      font-size: 1.2em;
+      font-weight: 500;
+      color: #fff; }
   .headSlider p {
-    color: #fff; }
+    color: #fff;
+    font-weight: 100; }
   .headSlider hr {
     border: 1px solid rgba(130, 192, 81, 0.5);
     width: 50px; }
@@ -187,26 +192,66 @@ section img {
 
 .mapContain {
   padding: 2em 3em 3em 3em;
-  background-color: rgba(47, 47, 47, 0.75); }
+  background-color: #619638; }
   .mapContain h2 {
     text-align: left;
     color: #fff;
     margin: 5px auto;
-    font-size: 1.4em;
-    font-weight: 400; }
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #82c051;
+    margin: 0;
+    padding: 10px; }
+  .mapContain span {
+    float: right;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 2px; }
   .mapContain i {
     color: #fff;
     font-size: 1.3em;
     margin-right: 5px; }
+  .mapContain .business-hours {
+    margin-left: 0px;
+    margin-top: 2em; }
+    .mapContain .business-hours h2 {
+      font-size: 18px;
+      margin: 0; }
+    .mapContain .business-hours ul {
+      width: 100%;
+      padding: 0;
+      margin: 0; }
+      .mapContain .business-hours ul li {
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-top: none;
+        color: #fff;
+        font-size: 15px;
+        padding: .6em;
+        background-color: rgba(255, 255, 255, 0.03);
+        list-style: none;
+        text-transform: uppercase; }
+        .mapContain .business-hours ul li:nth-child(2n) {
+          background-color: rgba(255, 255, 255, 0.07); }
+        .mapContain .business-hours ul li:first-child {
+          border-top: 1px solid rgba(255, 255, 255, 0.3); }
+        .mapContain .business-hours ul li span {
+          color: #fff;
+          float: right; }
+    .mapContain .business-hours p {
+      width: auto;
+      font-size: 1.2em;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      background-color: rgba(255, 255, 255, 0.03);
+      color: #fff; }
 
 #map {
-  height: 275px;
+  height: 225px;
   width: 100%; }
 
 footer {
   position: relative;
-  background-color: rgba(47, 47, 47, 0.75);
-  height: 230px;
+  background-color: #82c051;
+  padding: 30px;
   color: #fff; }
   footer ul {
     margin: 0 auto;
@@ -227,16 +272,12 @@ footer {
           transform: scale(1.1);
           transition: .2s; }
   footer span {
-    font-weight: 700;
+    font-weight: 100;
     color: #fff; }
   footer p {
     text-align: center;
     font-size: 16px;
-    bottom: -15px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    font-weight: 700;
+    font-weight: 100;
     color: #fff; }
 
 #footImgMobile {
@@ -253,7 +294,8 @@ footer {
 
 .centerAlign {
   width: 100%;
-  text-align: center; }
+  text-align: right;
+  right: 15px; }
 
 /*MEDIA*/
 /*Phone*/
@@ -408,10 +450,21 @@ footer {
     width: 75%;
     margin: 0 auto; }
 
+  .mapContain {
+    padding: 2em 3em 3em 3em;
+    background-color: rgba(47, 47, 47, 0.65); }
+    .mapContain span {
+      float: right; }
+    .mapContain i {
+      font-size: 1.3em;
+      margin-right: 5px; }
+    .mapContain .business-hours {
+      margin-left: 10px; }
+      .mapContain .business-hours h2 {
+        padding: 10px; }
+
   footer {
     clear: both; }
-    footer p {
-      bottom: 0px; }
     footer ul {
       display: none; }
 
@@ -424,9 +477,9 @@ footer {
       font-size: 20px;
       font-weight: 700;
       margin-bottom: 10px;
-      color: #82c051; }
+      color: #ffffff; }
     .contactInfo i {
-      color: #82c051; } }
+      color: #fff; } }
 /*desktop*/
 @media only screen and (min-width: 60em) {
   /*ANIMATABLE*/
@@ -488,9 +541,6 @@ footer {
   nav li {
     font-size: 1.1em; }
 
-  footer {
-    height: 250px; }
-
   footer ul {
     display: none; }
 
@@ -502,10 +552,14 @@ footer {
 
   #footImgWeb {
     margin: 0 auto;
-    width: 150px; }
+    width: 150px;
+    margin-right: 15px; }
 
   span {
-    padding-left: 5px; } }
+    padding-left: 5px; }
+
+  #map {
+    height: 425px; } }
 /*large desktop*/
 @media only screen and (min-width: 72.5em) {
   wrapper {
