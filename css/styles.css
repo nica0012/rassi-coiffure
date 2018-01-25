@@ -180,17 +180,17 @@ section img {
 
 #section1,
 #section3 {
-  background-color: #f0f0f0; }
+  background-color: #e8e8e8; }
 
 #section2Mobile {
   display: block;
-  background-color: #f0f0f0; }
+  background-color: #e8e8e8; }
   #section2Mobile hr {
     border: 2px solid #82c051 !important; }
 
 #section2 {
   display: none;
-  background-color: #f0f0f0; }
+  background-color: #e8e8e8; }
 
 .mapContain {
   padding: 2em 3em 3em 3em;
