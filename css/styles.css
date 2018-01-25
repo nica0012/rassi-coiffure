@@ -60,7 +60,8 @@ header {
     margin: 0 auto;
     margin-top: 52px; }
   .headSlider h1 {
-    color: #fff; }
+    color: #fff;
+    font-size: 2.5em; }
     .headSlider h1 span {
       font-size: 1.2em;
       font-weight: 600;
@@ -403,7 +404,7 @@ footer {
     .headSlider h1 {
       margin-top: 2.5em;
       margin-bottom: 0em;
-      font-size: 3em; }
+      font-size: 3.5em; }
     .headSlider p {
       font-size: 1.3em;
       width: 65%;
@@ -568,11 +569,11 @@ footer {
     width: 72.5em; }
 
   h1 {
-    font-size: 3.3em;
+    font-size: 3.9em;
     text-align: center; }
 
   .headSlider h1 {
-    font-size: 3.5em; }
+    font-size: 3.8em; }
   .headSlider p {
     margin: -5px auto; } }
 
