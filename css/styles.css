@@ -34,8 +34,9 @@ header {
       color: #fff; }
   header #liPhone {
     float: right;
-    font-size: 1em;
-    color: #fff; }
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 400; }
     header #liPhone i {
       color: #fff;
       margin-right: 5px; }
@@ -276,7 +277,7 @@ footer {
     color: #fff; }
   footer p {
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 100;
     color: #fff; }
 
@@ -560,7 +561,7 @@ footer {
     padding-left: 5px; }
 
   #map {
-    height: 425px; } }
+    height: 375px; } }
 /*large desktop*/
 @media only screen and (min-width: 72.5em) {
   wrapper {
